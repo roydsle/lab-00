@@ -17,15 +17,15 @@ We set up the data frame. Edit the data below to include information about your 
 
 ```{r setup-tibble}
 team_data <- tibble(
-  name = c("Peter Rabbit", "member 1", "member 2", 
-           "member 3", "member 4"),
-  github_username = c("mcgregors-garden", "username 1", "username 2", 
-                      "username 3", "username 4"), 
-  colour = c("powderblue", "colour 1", "colour 2", 
-             "colour 3", "colour 4"),
-  hobby = c("Hopping", "hobby 1", "hobby 2", 
-            "hobby 3", "hobby 4"),
-  favourite_number = c(2, NA, NA, NA, NA)
+  name = c("Lucy", "Zazzie", "Gabriel", 
+           "Jin", "Alex", "Joel"),
+  github_username = c("roydsle", "zarinakjellberg", "gamgow", 
+                      "jin2226", "alexjdlr", "joelhanloned"), 
+  colour = c("darkgreen", "blue", "pink", 
+             "violet", "red", "green"),
+  hobby = c("reading", "netball", "jazz trumpet", 
+            "reading", "music", "drums"),
+  favourite_number = c(7, 2, 2, 4, 10, 2)
   )
 
 team_data
@@ -54,9 +54,9 @@ p1
 Change the text of the plot title and axis labels.
 
 ```{r labelled-bar-plot}
-p1 + labs(x = "Insert text here", 
-          y = "Insert text here",
-          title = "Insert text here")
+p1 + labs(x = "username", 
+          y = "number",
+          title = "practice graph")
 ```
 
 *Remove this text (including the stars), and add your answer for Exercise 19 here.*
