@@ -47,7 +47,7 @@ p1
 ```
 
 
-*Remove this text (including the stars), and add your answer for Exercise 18 here.*
+For each username, the graph shows through the height of the bar the favourite number, and through colour, the favourite colour
 
 ### Exercises 19
 
@@ -59,7 +59,7 @@ p1 + labs(x = "username",
           title = "practice graph")
 ```
 
-*Remove this text (including the stars), and add your answer for Exercise 19 here.*
+The lab() function adds and allows edits to labels
 
 ### Exercise 20
 
@@ -69,4 +69,4 @@ p2 <- ggplot(team_data, aes(x = hobby)) +
 p2
 ```
 
-*Remove this text (including the stars) and add your answer for Exercise 20 here.*
+After discussion, an itemised list was posed as a way to convey data, however the sheer number of discrete variables created a problem for conveyance of information.
