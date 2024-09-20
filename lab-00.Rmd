@@ -70,3 +70,4 @@ p2
 ```
 
 After discussion, an itemised list was posed as a way to convey data, however the sheer number of discrete variables created a problem for conveyance of information.
+
